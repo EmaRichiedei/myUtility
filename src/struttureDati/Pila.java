@@ -20,9 +20,13 @@ public class Pila <T>{
 
     /***
      * return true if the pila has no elements
-     * @return
+     * @return boolean
      */
     public boolean isEmpty(){
         return pila.size()==0;
     }
+    public  int size(){
+        return pila.size();
+    }
+
 }

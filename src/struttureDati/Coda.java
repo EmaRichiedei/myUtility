@@ -18,4 +18,8 @@ public class Coda<T>{
         return  coda.isEmpty();
     }
 
+    public int size(){
+        return coda.size();
+    }
+
 }
