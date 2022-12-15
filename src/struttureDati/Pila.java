@@ -17,4 +17,12 @@ public class Pila <T>{
 
         return element;
     }
+
+    /***
+     * return true if the pila has no elements
+     * @return
+     */
+    public boolean isEmpty(){
+        return pila.size()==0;
+    }
 }

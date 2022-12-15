@@ -10,11 +10,12 @@ public class Coda<T>{
     }
     public T pop(){
         T element = null;
-
         element = coda.get(0);
         coda.remove(0);
-
         return element;
+    }
+    public boolean isEmpty(){
+        return  coda.isEmpty();
     }
 
 }
